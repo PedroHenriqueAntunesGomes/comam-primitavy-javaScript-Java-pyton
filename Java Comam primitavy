@@ -1,0 +1,10 @@
+Os tipos de Java primitivos são:
+
+byte: ocupa 16 bits. Guarda um único caractere em formato Unicode (usando aspas simples).
+short:
+int:
+long:
+float:
+double:
+char:
+boolean:

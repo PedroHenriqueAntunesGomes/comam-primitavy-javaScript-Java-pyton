@@ -1,1 +1,52 @@
+Principais tipos primitivos do Python
 
+. String (str) - representa textos;
+. Integer (int) - representa números inteiros;
+. Float (float) - representa números decimais;
+. Complex (complex) - representa números complexos;
+. Boolean (bool) - representa verdadeiro ou falso;
+. NoneType (None) - representa a ausência de um valor.
+
+Exemplos:
+# 1. str (textos)
+texto = "Hello World!"
+print(texto)          # Resultado: Hello World!
+print(type(texto))    # Resultado: <class 'str'>
+
+
+# 2. int (números inteiros)
+idade = 18
+ano = 2026
+
+print(idade, ano)     # Resultado: 18 2026
+print(type(idade))    # Resultado: <class 'int'>
+
+
+# 3. float (números decimais)
+altura = 1.73
+peso = 70.5
+
+print(altura, peso)   # Resultado: 1.73 70.5
+print(type(altura))   # Resultado: <class 'float'>
+
+
+# 4. complex (números complexos)
+numero = 3 + 2j
+
+print(numero)         # Resultado: (3+2j)
+print(type(numero))   # Resultado: <class 'complex'>
+
+
+# 5. bool (verdadeiro ou falso)
+esta_ligado = True
+esta_chovendo = False
+
+print(esta_ligado)    # Resultado: True
+print(type(esta_ligado)) # Resultado: <class 'bool'>
+
+
+# 6. NoneType (ausência de valor)
+valor_vazio = None
+
+print(valor_vazio)    # Resultado: None
+print(type(valor_vazio)) # Resultado: <class 'NoneType'>

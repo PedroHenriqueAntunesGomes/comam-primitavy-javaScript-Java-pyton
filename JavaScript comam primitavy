@@ -1,0 +1,48 @@
+Os principais tipos de comandos primitivos no JavaScript são:
+
+. String - representa textos;
+. Number - representa números inteiros e decimais;.
+. Biglnt - representa números inteiros muito grandes;
+. Boolean - representa verdadeiro ou falso;
+. Underfined - indica que uma variável ainda não possui valor definido;
+. Null - representa a ausência intencional de um valor;
+. Symbol - representa um identificador único.
+
+Exemplos: 
+//3.string (textos)
+const textos = "Hello word!";
+console.log(texto);// Resultado: Hello word!
+console.log(typeof texto); // Resultado: "string"
+
+//4.number(numeros inteitros ou decimais);
+const idade = 18;
+const altura = 1,73;
+console.log(idade, altura); //Resultado: 18 1,73
+console.log(typeof idade); //Resultado: "number"
+
+//5.biglnt (Números inteiros gigantes - usa 'n' no final)
+const "Distancia da Terra ata o Sol" = 149600000n
+console.log("Distancia da Terra ate o Sol");//Resultado: 149600000n
+console.log(typeof Distancia da Terra ate o Sol);//Resultado: briglnt
+
+//6.boolean(True or false)
+const estaLigado = true
+const estachovendo = false
+console.log(estaLigado); //Resultado: True
+console.log(typeof estaLigado); //Resultado: "boolean"
+
+//7.Underfined (Variavél declarada, mas valor não definido)
+let mediaDeNota;
+console.log(semValor); // Resultado: undefined
+console.log(typeof semValor); // Resultado: "undefined"
+
+// 8. Null (Vazio intencional)
+const valorVazio = null;
+console.log(valorVazio); // Resultado: null
+// OBS: por um erro histórico do JavaScript, o typeof do null retorna "object"
+console.log(typeof valorVazio); // Resultado: "object"
+
+//9. Symbol (Identificador Unico);
+const meuSimbolo = Symbol("id");
+console.log(meuSimbolo); // Resultado: Symbol(id)
+console.log(typeof meuSimbolo); // Resultado: "symbol"
